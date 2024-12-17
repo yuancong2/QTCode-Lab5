@@ -20,6 +20,9 @@ public:
 private slots:
     void on_starStopButton_clicked();
 
+public slots:
+    void logMessage(const QString & msg);
+
 private:
     Ui::MainWindow *ui;
 };
